@@ -1,4 +1,4 @@
-# Interactive Voice Assistant (Python)
+# Bobby - Interactive Voice Assistant (Python)
 
 ## Overview
 A desktop-based virtual assistant built with Python. The application provides a hands-free conversational interface capable of listening to user voice commands, interpreting them, and responding via synthesized speech. It features a graphical user interface (GUI) and logs interaction history using a local database.
@@ -8,7 +8,7 @@ A desktop-based virtual assistant built with Python. The application provides a 
 * **Text-to-Speech (TTS):** Provides spoken audio feedback using the offline `pyttsx3` engine.
 * **Real-time Weather Data:** Integrates with the OpenWeather API to fetch and speak current weather conditions for specified cities.
 * **Command Logging:** Automatically initializes and stores a history of user queries and assistant responses in a local SQLite database.
-* **Desktop GUI:** An accessible user interface built with `tkinter`, featuring visual feedback for microphone activation.
+* **Desktop GUI:** An accessible user interface built with `tkinter`, featuring visual feedback and a custom logo.
 
 ## Technologies & Libraries
 * **Language:** Python 3.x
@@ -18,6 +18,7 @@ A desktop-based virtual assistant built with Python. The application provides a 
 
 ## Setup & Execution
 1. Clone the repository to your local machine.
-2. Install the required dependencies (e.g., `pip install SpeechRecognition pyttsx3 requests Pillow pyaudio`).
-3. Replace the placeholder in the script with your own OpenWeather API key.
-4. Run `main.py` to launch the assistant. The SQLite database (`assistant_db.db`) will initialize automatically on the first run.
+2. **Important:** Ensure both `main.py` and the `mic.png` image file are downloaded and placed in the exact same folder so the GUI can load the logo properly.
+3. Install the required dependencies (e.g., `pip install SpeechRecognition pyttsx3 requests Pillow pyaudio`).
+4. Replace the placeholder in the script with your own OpenWeather API key.
+5. Run `main.py` to launch the assistant. The SQLite database (`assistant_db.db`) will initialize automatically on the first run.

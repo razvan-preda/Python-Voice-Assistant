@@ -20,4 +20,4 @@ A desktop-based virtual assistant built with Python. The application provides a 
 1. Clone the repository to your local machine.
 2. Install the required dependencies (e.g., `pip install SpeechRecognition pyttsx3 requests Pillow pyaudio`).
 3. Replace the placeholder in the script with your own OpenWeather API key.
-4. Run `main.py` to launch the assistant. The SQLite database (`assistant_db.db`) will initialize automatically on the first run.
+4. Run `Bobby.py` to launch the assistant. The SQLite database (`assistant_db.db`) will initialize automatically on the first run.
